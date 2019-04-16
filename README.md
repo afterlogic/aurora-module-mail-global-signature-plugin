@@ -5,4 +5,4 @@ With this plugin enabled and configured, all email messages sent out will have a
 **Signature** is supplied in `data/settings/modules/MailGlobalSignaturePlugin.config.json` file. 
 
 # License
-This module is licensed under AGPLv3 license if free version of the product is used or AfterLogic Software License if commercial version of the product was purchased.
+This module is licensed under AGPLv3 license if free version of the product is used or Afterlogic Software License if commercial version of the product was purchased.
