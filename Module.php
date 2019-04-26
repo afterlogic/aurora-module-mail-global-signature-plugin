@@ -8,8 +8,8 @@
 namespace Aurora\Modules\MailGlobalSignaturePlugin;
 
 /**
- * This module adds ability to login to the admin panel as a Super Administrator.
- *
+ * With this plugin enabled and configured, all email messages sent out will have a predefined message appended.
+ * 
  * @license https://www.gnu.org/licenses/agpl-3.0.html AGPL-3.0
  * @license https://afterlogic.com/products/common-licensing Afterlogic Software License
  * @copyright Copyright (c) 2019, Afterlogic Corp.
