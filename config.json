@@ -1,10 +1,18 @@
 {
-	"Disabled": [
-		false,
-		"bool"
-	],
-	"Signature": [
-		"",
-		"string"
-	]
+  "Disabled": [
+    false,
+    "bool"
+  ],
+  "Disabled_Description": [
+    "",
+    "string"
+  ],
+  "Signature": [
+    "",
+    "string"
+  ],
+  "Signature_Description": [
+    "",
+    "string"
+  ]
 }
