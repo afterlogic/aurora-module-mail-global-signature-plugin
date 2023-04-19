@@ -14,6 +14,8 @@ namespace Aurora\Modules\MailGlobalSignaturePlugin;
  * @license https://afterlogic.com/products/common-licensing Afterlogic Software License
  * @copyright Copyright (c) 2023, Afterlogic Corp.
  *
+ * @property Settings $oModuleSettings
+ *
  * @package Modules
  */
 class Module extends \Aurora\System\Module\AbstractModule
@@ -55,6 +57,6 @@ class Module extends \Aurora\System\Module\AbstractModule
      */
     public function onBeforeSendMessage(&$aArguments, &$mResult)
     {
-        $aArguments["Text"] .= ($aArguments["IsHtml"] ? "<br />" : "\r\n") . $this->getConfig('Signature', '');
+        $aArguments["Text"] .= ($aArguments["IsHtml"] ? "<br />" : "\r\n") . $this->oModuleSettings->Signature;
     }
 }
